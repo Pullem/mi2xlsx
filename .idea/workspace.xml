@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40f9f2ae-72dc-44ce-b917-f6bb7b9290b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mediainfo_sqlite3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="P:" />
+  </component>
+  <component name="ProjectId" id="1WLe5TPXBIN6bDDS6v1hArhLaGo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="mediainfo_sqlite3" sdk-home="P:\Anaconda3\python.exe">
+        <option name="mySdkHome" value="P:\Anaconda3\python.exe" />
+        <option name="myModuleName" value="mediainfo_sqlite3" />
+      </console-settings>
+    </option>
+    <option name="myShowDebugConsoleByDefault" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\_Projects\mediainfo_mariadb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mediainfo_mariadb">
+    <configuration name="connecting2mariadb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connecting2mariadb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbConnectionTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbConnectionTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbConnectionTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="P:\_Projects\mediainfo_mariadb\dbConnectionTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbConnectionTest_Backup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbConnectionTest_Backup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mediainfo_mariadb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mediainfo_mariadb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mediainfo_sqlite3" type="PythonConfigurationType" factoryName="Python">
+      <module name="mediainfo_mariadb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="P:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="P:\_Projects\mediainfo_mariadb\mediainfo_mariadb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mediainfo_mariadb" />
+        <item itemvalue="Python.connecting2mariadb" />
+        <item itemvalue="Python.dbConnectionTest_Backup" />
+        <item itemvalue="Python.dbConnectionTest (1)" />
+        <item itemvalue="Python.dbConnectionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\GerdA\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40f9f2ae-72dc-44ce-b917-f6bb7b9290b4" name="Default Changelist" comment="" />
+      <created>1553380824820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553380824820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="P:" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="164" key="#Inspections" timestamp="1579034909204">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="164" key="#Inspections/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579034909204" />
+    <state x="328" y="243" key="#Menus_and_Toolbars" timestamp="1579177954526">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="328" y="243" key="#Menus_and_Toolbars/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579177954526" />
+    <state x="432" y="164" key="#Notifications" timestamp="1578933415132">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="164" key="#Notifications/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1578933415132" />
+    <state x="432" y="164" key="#Scopes" timestamp="1579298591445">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="164" key="#Scopes/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579298591445" />
+    <state x="-1208" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580925999841">
+      <screen x="-1680" y="0" width="1680" height="1010" />
+    </state>
+    <state x="-1208" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010/-1680.0.1680.1010@-1680.0.1680.1010" timestamp="1580925999841" />
+    <state x="472" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580597261249" />
+    <state x="644" y="141" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1579107264384">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="644" y="141" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579107264384" />
+    <state x="530" y="106" key="#mediainfo_sqlite3" timestamp="1579033858415">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="530" y="106" key="#mediainfo_sqlite3/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579033858415" />
+    <state x="595" y="122" key="#xdebugger.evaluate" timestamp="1579296727408">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="595" y="122" key="#xdebugger.evaluate/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579296727408" />
+    <state x="619" y="260" key="FileChooserDialogImpl" timestamp="1581016371734">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="619" y="260" key="FileChooserDialogImpl/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1581016371734" />
+    <state width="1132" height="509" key="GridCell.Tab.-1.bottom" timestamp="1579297625841">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1132" height="509" key="GridCell.Tab.-1.bottom/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579297625841" />
+    <state width="1132" height="509" key="GridCell.Tab.-1.center" timestamp="1579297625841">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1132" height="509" key="GridCell.Tab.-1.center/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579297625841" />
+    <state width="1132" height="509" key="GridCell.Tab.-1.left" timestamp="1579297625841">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1132" height="509" key="GridCell.Tab.-1.left/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579297625841" />
+    <state width="1132" height="509" key="GridCell.Tab.-1.right" timestamp="1579297625841">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1132" height="509" key="GridCell.Tab.-1.right/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1579297625841" />
+    <state width="1247" height="949" key="GridCell.Tab.0.bottom" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state width="1247" height="949" key="GridCell.Tab.0.center" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.0.center/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state width="1247" height="949" key="GridCell.Tab.0.left" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.0.left/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state width="1247" height="949" key="GridCell.Tab.0.right" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.0.right/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state width="1247" height="949" key="GridCell.Tab.1.bottom" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.1.bottom/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state width="1247" height="949" key="GridCell.Tab.1.center" timestamp="1580929605856">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.1.center/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605856" />
+    <state width="1247" height="949" key="GridCell.Tab.1.left" timestamp="1580929605856">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.1.left/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605856" />
+    <state width="1247" height="949" key="GridCell.Tab.1.right" timestamp="1580929605857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1247" height="949" key="GridCell.Tab.1.right/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1580929605857" />
+    <state x="363" y="148" key="SettingsEditor" timestamp="1581018338802">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="363" y="148" key="SettingsEditor/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1581018338802" />
+    <state x="479" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1581162652728">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="479" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1581162652728" />
+    <state x="376" y="160" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578934564830">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="376" y="160" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1578934564830" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mediainfo_mariadb.py</url>
+          <line>273</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mediainfo_mariadb.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

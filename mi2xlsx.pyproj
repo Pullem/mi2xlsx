@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21526199-df3d-4f56-8931-5dfb353556bf}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>mi2xlsx.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="log\04_original_enc10_avi_raw.log" />
+    <Content Include="log\Aufnahme-0001_mpg_raw.log" />
+    <Content Include="log\S-Video_TERRATEC_G5_Homecinema_mpg_raw.log" />
+    <Content Include="log\sync_mp4_raw.log" />
+    <Content Include="log\waterfall_avi_raw.log" />
+    <Content Include="media\04_original_enc10.avi" />
+    <Content Include="media\Aufnahme-0001.mpg" />
+    <Content Include="media\S-Video_TERRATEC_G5_Homecinema.mpg" />
+    <Content Include="media\sync.mp4" />
+    <Content Include="media\waterfall.avi" />
+    <Content Include="NoSecretUserPass.cnf" />
+    <Content Include="mi2xlsx.md" />
+    <Content Include="Extracting from excel %28.xlsx%29 writing to .txt file.txt" />
+    <Content Include="Extracting Data From Large Spreadsheets.txt" />
+    <Content Include="xlsx\000097_jpg.xlsx" />
+    <Content Include="extensions.txt" />
+    <Content Include="log\000097_jpg_raw.log" />
+    <Content Include="media\000097.jpg" />
+    <Content Include="media\no_media_file.txt" />
+    <Content Include="xlsx\04_original_enc10_avi.xlsx" />
+    <Content Include="xlsx\Aufnahme-0001_mpg.xlsx" />
+    <Content Include="xlsx\S-Video_TERRATEC_G5_Homecinema_mpg.xlsx" />
+    <Content Include="xlsx\sync_mp4.xlsx" />
+    <Content Include="xlsx\waterfall_avi.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mi2xlsx.py" />
+    <Compile Include="import Excel Data to QTableWidget.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="How to extract information from your excel sheet.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="xlsx\" />
+    <Folder Include="log\" />
+    <Folder Include="media" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.9</Version>
+      <Description>env (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
