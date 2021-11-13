@@ -31,8 +31,6 @@
     <Content Include="media\waterfall.avi" />
     <Content Include="NoSecretUserPass.cnf" />
     <Content Include="mi2xlsx.md" />
-    <Content Include="Extracting from excel %28.xlsx%29 writing to .txt file.txt" />
-    <Content Include="Extracting Data From Large Spreadsheets.txt" />
     <Content Include="xlsx\000097_jpg.xlsx" />
     <Content Include="extensions.txt" />
     <Content Include="log\000097_jpg_raw.log" />
@@ -46,12 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="mi2xlsx.py" />
-    <Compile Include="import Excel Data to QTableWidget.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="How to extract information from your excel sheet.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="xlsx\" />
