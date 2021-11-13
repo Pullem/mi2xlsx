@@ -31,24 +31,18 @@
     <Content Include="media\waterfall.avi" />
     <Content Include="NoSecretUserPass.cnf" />
     <Content Include="mi2xlsx.md" />
-    <Content Include="xlsx\000097_jpg.xlsx" />
     <Content Include="extensions.txt" />
     <Content Include="log\000097_jpg_raw.log" />
     <Content Include="media\000097.jpg" />
     <Content Include="media\no_media_file.txt" />
-    <Content Include="xlsx\04_original_enc10_avi.xlsx" />
-    <Content Include="xlsx\Aufnahme-0001_mpg.xlsx" />
-    <Content Include="xlsx\S-Video_TERRATEC_G5_Homecinema_mpg.xlsx" />
-    <Content Include="xlsx\sync_mp4.xlsx" />
-    <Content Include="xlsx\waterfall_avi.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="mi2xlsx.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="xlsx\" />
     <Folder Include="log\" />
     <Folder Include="media" />
+    <Folder Include="xlsx\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
