@@ -1,4 +1,0 @@
-
-# https://www.c-sharpcorner.com/article/extracting-data-from-large-spreadsheets-using-python-and-openpyxl/
-
-# https://github.com/ShawonAshraf/OpenpyxlBlogPost

@@ -59,7 +59,7 @@ if __name__ == '__main__':
 		# os.path.isfile(path) : return 'true' if 'path' is an existing regular file, and 'false' for our 'sub_directory'
 		# in this source, at the time of the first loop-step, 'path' is the first 'file' in our 'list_of_all_files'
 		#
-		print(os.path.isfile(os.path.join(dir_media,file)))
+		# print(os.path.isfile(os.path.join(dir_media,file)))
 
 		# 'if' is a 'conditional statement' , and in this for-loop we have another for-loop:
 		# it starts with 'for' followed by the variable name 'filter'
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 				# print('\n', "list of files (new referenced) : ", "\n", "     ", list_of_files)
 
 	# at this time we have applied our filter rule
-	print('only media files (this list is filtered):  ', only_media_files)
+	print('\n', 'only media files (this list is filtered):  ', only_media_files)
 
 	# for-loop: for every media-file in our 'only_media_files'
 	for file in only_media_files:
