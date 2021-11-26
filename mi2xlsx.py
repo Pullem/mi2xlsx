@@ -6,22 +6,34 @@
 import platform
 import subprocess
 import os
-# import copy
-# import tablib
 import sys
 
 from openpyxl import Workbook
-from openpyxl import load_workbook
 from openpyxl import __version__ as opx_v
 
 # Import necessary style classes
-from openpyxl.styles import Font, Color, Alignment, Border, Side, colors
+from openpyxl.styles import Font, Alignment, Border, Side
 
 print(" 'Python' - Version : " + platform.python_version() + " on os: " + sys.platform)
 print(" 'OpenPyXL' - Version : " + opx_v)
 
-# this is a list with items of the type 'string' :
+# this is a list with items of the type 'string'
+# these are extensions of files (in the execution folder) which are 'no media files':
 no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.txt']
+
+# here i read an external text file (again with the 'no media file' extensions)
+# i believe this is more flexible:
+with open ("extensions.txt") as file:
+	no_media_files = file.read()
+	file.close()
+print(no_media_files)
+
+no_media_files = no_media_files.split("\n")
+print(no_media_files)
+
+no_media_files = ["." + item for item in no_media_files]
+print(no_media_files)
+
 # test - in the following line i filter also 'avi' 'jpg' and 'mpg' files
 # no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.avi', '.jpg', '.mpg']
 
@@ -41,9 +53,13 @@ if __name__ == '__main__':
 
 	# return a list containing the names of the entries in the directory given by 'path' ,
 	# here our 'current working directory'
-	# at this time, this 'list_of_all_files' contains all files, without any filter
+	# at this time, this 'list_of_all_files' contains all files, without any filter applied
 	list_of_all_files = os.listdir(dir_media)
-	print('\n', "list of all files: ", "\n", list_of_all_files)
+	print("\n", "list of all files:")
+	for file in list_of_all_files:
+		print("   ", file)
+
+	print("\n")
 
 	only_media_files = []  # here we create an empty list
 
@@ -59,7 +75,7 @@ if __name__ == '__main__':
 		# os.path.isfile(path) : return 'true' if 'path' is an existing regular file, and 'false' for our 'sub_directory'
 		# in this source, at the time of the first loop-step, 'path' is the first 'file' in our 'list_of_all_files'
 		#
-		# print(os.path.isfile(os.path.join(dir_media,file)))
+		# print(os.path.isfile(os.path.join(dir_media,file)))	# prints 'True' or 'False'
 
 		# 'if' is a 'conditional statement' , and in this for-loop we have another for-loop:
 		# it starts with 'for' followed by the variable name 'filter'
@@ -78,7 +94,10 @@ if __name__ == '__main__':
 				# print('\n', "list of files (new referenced) : ", "\n", "     ", list_of_files)
 
 	# at this time we have applied our filter rule
-	print('\n', 'only media files (this list is filtered):  ', only_media_files)
+	# print('\n', 'only media files (this list is filtered):  ', only_media_files)
+	print("filtered list (only media files):")
+	for file in only_media_files:
+		print("   ", file)
 
 	# for-loop: for every media-file in our 'only_media_files'
 	for file in only_media_files:
@@ -90,7 +109,7 @@ if __name__ == '__main__':
 		# media_info[file] = subprocess.check_output(['mediainfo.exe', '%s', '%file'], shell=True, executable='/bin/bash').split('\n')
 
 		# if args is a list, then the first item in this list is considered as the executable and the rest
-		# of the items in the list are passed as command line arguments to the program:     ??? -s
+		# of the items in the list are passed as command line arguments to the program:
 		# mi_cmd = ['mediainfo.exe', '-s', (os.path.join(dir_media, file))]
 
 		# in Python 3.6 + you can use the new f - strings:
@@ -126,7 +145,7 @@ if __name__ == '__main__':
 		print ("-" * 100)
 		# the answer of 'check_output' is a 'dictionary':
 		# the 'media file name' as the key, and a list as the value to this key ,
-		# this 'value'-list includes all categories and parameters
+		# this 'value'-list contains all 'categories' and 'elements' from mediainfo
 
 		# media_info[file] = subprocess.check_output(mi_cmd, shell=None, encoding='utf-8', universal_newlines=True)
 
