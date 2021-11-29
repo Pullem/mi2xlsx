@@ -22,7 +22,7 @@ print(" 'OpenPyXL' - Version : " + opx_v)
 no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.txt']
 
 # here i read an external text file (again with the 'no media file' extensions)
-# i believe this is more flexible:
+# i believe this is more flexible, but notice the wrong entry 'no media file.txt', because we have no entry 'txt' in our 'extensions' list
 with open ("extensions.txt") as file:
 	no_media_files = file.read()
 	file.close()
@@ -94,7 +94,6 @@ if __name__ == '__main__':
 				# print('\n', "list of files (new referenced) : ", "\n", "     ", list_of_files)
 
 	# at this time we have applied our filter rule
-	# print('\n', 'only media files (this list is filtered):  ', only_media_files)
 	print("filtered list (only media files):")
 	for file in only_media_files:
 		print("   ", file)
@@ -108,7 +107,7 @@ if __name__ == '__main__':
 		# os: windows
 		# media_info[file] = subprocess.check_output(['mediainfo.exe', '%s', '%file'], shell=True, executable='/bin/bash').split('\n')
 
-		# if args is a list, then the first item in this list is considered as the executable and the rest
+		# if 'args' is a list, then the first item in this list is considered as the executable and the rest
 		# of the items in the list are passed as command line arguments to the program:
 		# mi_cmd = ['mediainfo.exe', '-s', (os.path.join(dir_media, file))]
 
@@ -121,17 +120,6 @@ if __name__ == '__main__':
 			f"--Logfile={dir_log}\{file.replace('.', '_')}_raw.log"]
 
 		print('\n', "'mi_cmd' is a list: ", mi_cmd)
-
-		# we get a 'byte string' , therefor we can't 'split'
-		# media_info[(os.path.join(dir_media, file)] = subprocess.check_output(mi_cmd, shell=None)
-
-		# we get a 'string', without 'b' ; now we can 'split'
-		# print ("This is the 'output' without '.split('\\n')'   :")    # escape slash before the \newline
-		# media_info[file] = subprocess.check_output([mi_cmd], universal_newlines=True, encoding='utf-8')
-		# print ("-" * 100)
-		# print ("media_info '1' is :  ", '\n\n\n', media_info, '\n\n\n')
-
-		# print ("This is the 'output' with '.split('\\n')'   :")
 
 		# media_info is a dictionary:
 		# here we generate an empty dictionary
@@ -147,11 +135,9 @@ if __name__ == '__main__':
 		# the 'media file name' as the key, and a list as the value to this key ,
 		# this 'value'-list contains all 'categories' and 'elements' from mediainfo
 
-		# media_info[file] = subprocess.check_output(mi_cmd, shell=None, encoding='utf-8', universal_newlines=True)
-
 		# print("-" * 100)
 		# print('media_info is :  ', '\n\n\n', media_info, '\n\n\n')
-		# !!!   the output starts with { , followed by the name of our mediafile, test.mp4_hide , in this example ,
+		# !!!   the output starts with { , followed by the name of our mediafile,
 		# THAN a lowercase  b  , just before 'General .....
 		# this b means in Python3 'byte string': it consists of sequences of 8-bit values, and is for storing to disk,
 		# while 'str' consists of sequences of Unicode characters, and is for displaying to humans to read on a computer
@@ -232,7 +218,7 @@ if __name__ == '__main__':
 					# set Worksheet tab color.
 					ws_category.sheet_properties.tabColor = "FF0000"
 
-					ws_category['A1'] = 'MI Element'	# write text to fixed cell
+					ws_category['A1'] = 'MI Element'	# write text to fixed cell 'A1'
 					ws_category['B1'] = 'MI Value'
 
 					ws_category["A1"].font = bold_font
@@ -244,13 +230,15 @@ if __name__ == '__main__':
 					# sheet["A3"].font = big_red_text
 					# sheet["A4"].alignment = center_aligned_text
 
-					ws_cat = ws_cat + 1					# insert next worksheet to the next right position
+					ws_cat = ws_cat + 1					# increase counter for worksheet position
+														# next worksheet will be inserted to the next right position
 
 					sheet_row = 2						# on every worksheet the first row is filled with fixed text
 
 				else:
 					print("Line is:  ", line)
 
+					# some lines have a lot of colons ' : '
 					# example for 'line' from the audio category ( two ' : ')
 					#			Channel positions : Front: L R
 					# another example
@@ -274,3 +262,8 @@ if __name__ == '__main__':
 					# wb.save(os.path.join(dir_xlsx, (file.replace('.', '_') + '.xlsx')))
 
 				wb.save(os.path.join(dir_xlsx, (file.replace('.', '_') + '.xlsx')))
+
+
+# https://adamj.eu/tech/2021/10/10/the-many-ways-to-exit-in-python/				
+print("\n\n!!!   Done   !!!")
+raise SystemExit()
