@@ -19,7 +19,7 @@ print(" 'OpenPyXL' - Version : " + opx_v)
 
 # this is a list with items of the type 'string'
 # these are extensions of files (in the execution folder) which are 'no media files':
-no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.txt']
+# no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.txt']
 
 # here i read an external text file (again with the 'no media file' extensions)
 # i believe this is more flexible, but notice the wrong entry 'no media file.txt', because we have no entry 'txt' in our 'extensions' list
