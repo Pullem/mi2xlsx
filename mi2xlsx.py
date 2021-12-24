@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 		# print('\n', "directory:  ", directory, '\n')
 
-		mi_cmd = ['mediainfo ', '--Language=raw ', '--Full ', (os.path.join(dir_media, file)) + ' ',
+		mi_cmd = ['mediainfo', '--Language=raw', '--Full', (os.path.join(dir_media, file)),
 			f"--Logfile={dir_log}\{file.replace('.', '_')}_raw.log"]
 
 		print('\n', "'mi_cmd' is a list: ", mi_cmd)
