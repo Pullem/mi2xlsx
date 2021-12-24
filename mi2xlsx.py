@@ -14,8 +14,8 @@ from openpyxl import __version__ as opx_v
 # Import necessary style classes
 from openpyxl.styles import Font, Alignment, Border, Side
 
-print(" 'Python' - Version : " + platform.python_version() + " on os: " + sys.platform)
-print(" 'OpenPyXL' - Version : " + opx_v)
+print("  'Python' - Version : " + platform.python_version() + " on os: " + sys.platform)
+print("  'OpenPyXL' - Version : " + opx_v, '\n')
 
 # this is a list with items of the type 'string'
 # these are extensions of files (in the execution folder) which are 'no media files':
@@ -26,13 +26,13 @@ print(" 'OpenPyXL' - Version : " + opx_v)
 with open ("extensions.txt") as file:
 	no_media_files = file.read()
 	file.close()
-print(no_media_files)
+print(no_media_files, '\n')
 
 no_media_files = no_media_files.split("\n")
-print(no_media_files)
+print(no_media_files, '\n')
 
 no_media_files = ["." + item for item in no_media_files]
-print(no_media_files)
+print(no_media_files, '\n')
 
 # test - in the following line i filter also 'avi' 'jpg' and 'mpg' files
 # no_media_files = ['.evs', '.py', '.xml', '.pdf', '.docx', '.db', '.exe', '.hide', '.xls', '.xlsx', '.csv', '.log', '.avi', '.jpg', '.mpg']
@@ -40,22 +40,22 @@ print(no_media_files)
 if __name__ == '__main__':
 
 	dir_work = os.getcwd()  # Return a string representing the current working directory
-	print('\n', "current working directory:  ", dir_work)
+	print('\n', "current 'working directory' :  ", dir_work)
 
 	# path = directory + '/folder'     # os: linux
 	# path = directory + '\\folder'  # os: windows
 	dir_media = dir_work + '\\media'
-	print('\n', "current media directory:  ", dir_media)
+	print('\n', "current 'media directory' :  ", dir_media)
 	dir_log = dir_work + '\\log'
-	print('\n', "current log directory:  ", dir_log)
+	print('\n', "current 'log directory' :  ", dir_log)
 	dir_xlsx = dir_work + '\\xlsx'
-	print('\n', "current workbook directory:  ", dir_xlsx)
+	print('\n', "current 'workbook directory' :  ", dir_xlsx)
 
 	# return a list containing the names of the entries in the directory given by 'path' ,
 	# here our 'current working directory'
 	# at this time, this 'list_of_all_files' contains all files, without any filter applied
 	list_of_all_files = os.listdir(dir_media)
-	print("\n", "list of all files:")
+	print("\n", "list of all files in our 'media directory' :")
 	for file in list_of_all_files:
 		print("   ", file)
 

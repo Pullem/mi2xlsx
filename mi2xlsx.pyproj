@@ -19,9 +19,11 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="external_doc\Mediainfo-All Elements.docx" />
     <Content Include="media\04_original_enc10.avi" />
     <Content Include="media\2021-08-09 - Eigenschaften Media.jpg" />
     <Content Include="media\Aufnahme-0001.mpg" />
+    <Content Include="media\Mediainfo-All Elements.rtf" />
     <Content Include="media\S-Video_TERRATEC_G5_Homecinema.mpg" />
     <Content Include="media\sync.mp4" />
     <Content Include="media\waterfall.avi" />
@@ -34,6 +36,7 @@
     <Compile Include="mi2xlsx.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="external_doc\" />
     <Folder Include="log\" />
     <Folder Include="media" />
     <Folder Include="media\sub_directory\" />

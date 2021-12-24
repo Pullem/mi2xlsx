@@ -10,3 +10,5 @@ xls
 xlsx
 csv
 log
+txt
+rtf
